@@ -1,21 +1,21 @@
-# MyLITA-Finals
+### MyLITA-Finals
 ## Project Title 1: Sales Performance Analysis
 
 [Project Overview](#project-overview)
 
-Data Sources
+[Data Sources](#data-sources)
 
-Data tools used
+[Tools used](#tools-used)
 
-Data Cleaning and Preparation
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
 
-Explanatory Data Analysis
+[Explanatory Data Analysis](#explanatory-data-analysis)
 
-Data Analysis
+[Data Analysis](#data-analysis)
 
-Data Visualization
+[Data Visualization](#data-visualization)
 
-Inference
+[Inference](#inference)
 
 
 ## Project Overview
@@ -26,7 +26,7 @@ The aim of the data analysis is to explore sales data in order to uncover key in
 ---
 The primary source of Data used is the LITA Capstone Project .xslx
 
-## Data tools used
+## Tools used
 ---
 - Microsoft Excel [Download here](https://www.microsoft.com)
   1. For Data Cleaning
@@ -68,14 +68,35 @@ GROUP BY
 
 
 
+## Inference
+
+
+### MyLITA-Finals
+### Project 2 Title: Customer Segmentation for a Subscription Service
+
+[Project Overview](#project-overview)
+
+[Data Sources](#data-sources)
+
+[Tools used](#tools-used)
+
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
+[Explanatory Data Analysis](#explanatory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+
+[Inference](#inference)
 
 
 
-# MyLITA-Finals
-## Project Title 1: Sales Performance Analysis
+
+
 ## Project Overview
 ---
-The aim of the data analysis is to explore sales data in order to uncover key insights; gathering enough information through the analysis of the various parameters in the data to tell captivating stories and knowing the best performance from the data.
+The aim of this project is to analyze customer data for a subscription service to identify segments and trends. The goal is to understand customers behavior, track subscription types, and identify key trends in cancellations and renewals of the subscribed services.
 
 ## Data Sources
 ---
@@ -99,19 +120,22 @@ At the beginning of Data Cleaning and Preparation, the following steps were take
 
 ## Explanatory Data Analysis 
 ---
-This includes exploring of data to analyze top-selling products, regional performance, and monthly sales trends.
+This includes exploring of data to track subscription types, and identify key trends in cancellations and renewals of the subscribed services.
 
 ## Data Analysis
 ---
 This includes some basic lines of queries
 
-```SQL
-SELECT 
-    Product, 
-    SUM(Revenue) AS TotalSales
+```SELECT 
+    Region, 
+    COUNT(CustomerID) AS TotalCustomers
 FROM 
-    SalesData
+    CustomerData
 GROUP BY 
-    Product;
+    Region;
 ```
 ## Data Visualization
+
+
+
+## Inference
