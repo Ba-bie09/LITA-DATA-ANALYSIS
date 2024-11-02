@@ -1,5 +1,5 @@
 ### MyLITA-Finals
-## Project Title 1: Sales Performance Analysis
+## Project 1 Title: Sales Performance Analysis
 
 [Project Overview](#project-overview)
 
@@ -126,7 +126,8 @@ This includes exploring of data to track subscription types, and identify key tr
 ---
 This includes some basic lines of queries
 
-```SELECT 
+```SQL
+SELECT 
     Region, 
     COUNT(CustomerID) AS TotalCustomers
 FROM 
