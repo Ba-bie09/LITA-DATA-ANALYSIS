@@ -60,10 +60,6 @@ GROUP BY
     Product;
 ```
 
-```DAX
-Count True = COUNT ROWS(FILTER(CustomerData1,CustomersData1[Cancellation]=True))
-```
-
 ## Data Visualization
 ---
 
