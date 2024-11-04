@@ -61,25 +61,27 @@ GROUP BY
 ```
 
 ```DAX
-![DAX](https://github.com/user-attachments/assets/822825da-319f-49d2-9e3a-d10d5fd72914)
+Count True = COUNT ROWS(FILTER(CustomerData1,CustomersData1[Cancellation]=True))
 ```
-
 
 ## Data Visualization
 ---
 
 ![For Sales](https://github.com/user-attachments/assets/47bb6ede-5bc0-4239-b0a4-e27676bd72a6)
 
-
-![SalesProject Copy](https://github.com/user-attachments/assets/d3f5f080-4b2e-4dc4-baf1-4bab0a8de5c9)
-
+![SalesData Final](https://github.com/user-attachments/assets/6acb387c-8e08-478f-beb8-a95d69c59509)
 
 
-
-
-
-
-## Inference
+## Inference 
 ---
+1. Shoe is the highest product in demand coming from the South, followed by the East and lastly the West. The North has no record of any sales in shoes.
+2. Hat and Gloves are in close rivalry.
+3. The amount of the Averages Sales are proportional to the Quantity of Products sold.
+
+
+## Recommendation
+The North has no record of selling Shoes, so more attention should be focused there with plans of how to have a Shoe promotions there. It is evident that if the North is selling Shoes the Revenue will be very large, because despite the fact that the North does not have any record, Shoe is still the Product with the highest Revenue.
+
+🙂
 
 
