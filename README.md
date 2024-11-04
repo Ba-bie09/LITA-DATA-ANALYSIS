@@ -59,8 +59,19 @@ FROM
 GROUP BY 
     Product;
 ```
+
+```DAX
+![DAX](https://github.com/user-attachments/assets/822825da-319f-49d2-9e3a-d10d5fd72914)
+```
+
+
 ## Data Visualization
 ---
+
+![For Sales](https://github.com/user-attachments/assets/47bb6ede-5bc0-4239-b0a4-e27676bd72a6)
+
+
+![SalesProject Copy](https://github.com/user-attachments/assets/d3f5f080-4b2e-4dc4-baf1-4bab0a8de5c9)
 
 
 
