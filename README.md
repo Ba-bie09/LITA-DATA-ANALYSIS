@@ -60,8 +60,8 @@ GROUP BY
     Product;
 ```
 ## Data Visualization
--![BarChart](https://github.com/user-attachments/assets/5cd1fa24-04d3-40c8-aa10-334ca9231627)
---
+---
+
 
 
 
@@ -69,5 +69,6 @@ GROUP BY
 
 
 ## Inference
+---
 
 
